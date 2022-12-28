@@ -72,12 +72,10 @@
 			let ul=document.querySelector("ul")
 			console.log(ul)
 			let li=document.createElement("li")
-			li.innerHTML=`<span class="list">${newValue}:${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}</span> <i class="fa-solid fa-rectangle-xmark"</i>`
+			li.innerHTML=`<span class="list">${newValue} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}</span> <i class="fa-solid fa-rectangle-xmark"</i>`
 			li.classList.add("listtype")
 			ul.appendChild(li)
-			/*const d = new Date("2002-9-9");
-			console.log(d.getHours())
-			console.log(d.getMinutes())*/	
+				
 		}
 	</script>
 </body>
